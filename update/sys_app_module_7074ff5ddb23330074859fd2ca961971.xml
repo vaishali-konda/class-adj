@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="class adj">0fee6f95db23330074859fd2ca961918</application>
+        <assessment/>
+        <content_page/>
+        <device_type/>
+        <filter table="x_370289_class_adj_class_adj">state!=3^EQ<item endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="3"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Open</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_370289_class_adj_class_adj</name>
+        <order>200</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_370289_class_adj.HOD</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>3</sys_created_by>
+        <sys_created_on>2019-08-28 05:28:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7074ff5ddb23330074859fd2ca961971</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Open</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+        <sys_update_name>sys_app_module_7074ff5ddb23330074859fd2ca961971</sys_update_name>
+        <sys_updated_by>1</sys_updated_by>
+        <sys_updated_on>2019-08-28 06:02:42</sys_updated_on>
+        <timeline_page/>
+        <title>Open</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

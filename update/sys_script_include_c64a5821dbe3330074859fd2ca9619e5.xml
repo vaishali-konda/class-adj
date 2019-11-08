@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_370289_class_adj.GetEmailAddress</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>GetEmailAddress</name>
+        <script><![CDATA[var GetEmailAddress = Class.create();
+// Extend the global.AbstractAjaxProcessor class
+GetEmailAddress.prototype = Object.extendsObject(global.AbstractAjaxProcessor,{
+	// Define the getEmail function.  
+	// Create a GlideRecord for the User table.
+	// Use the sysparm_userID passed from the client side to retrieve a record from the User table.
+	// Return the email address for the requested record
+	getEmail: function() {
+		var userRecord = new GlideRecord("sys_user");
+		userRecord.get(this.getParameter('sysparm_userID'));
+		return userRecord.email + '';
+	},
+	type: 'GetEmailAddress'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>3</sys_created_by>
+        <sys_created_on>2019-08-28 08:16:30</sys_created_on>
+        <sys_id>c64a5821dbe3330074859fd2ca9619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetEmailAddress</sys_name>
+        <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+        <sys_update_name>sys_script_include_c64a5821dbe3330074859fd2ca9619e5</sys_update_name>
+        <sys_updated_by>3</sys_updated_by>
+        <sys_updated_on>2019-08-28 08:16:30</sys_updated_on>
+    </sys_script_include>
+</record_update>

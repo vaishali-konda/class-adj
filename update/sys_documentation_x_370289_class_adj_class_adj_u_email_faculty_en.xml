@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_email_faculty" label="email faculty" language="en" table="x_370289_class_adj_class_adj">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_email_faculty</element>
+            <help/>
+            <hint/>
+            <label>email faculty</label>
+            <language>en</language>
+            <name>x_370289_class_adj_class_adj</name>
+            <plural>email faculties</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>09a2ec69dbe3330074859fd2ca961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>email faculty</sys_name>
+            <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+            <sys_update_name>sys_documentation_x_370289_class_adj_class_adj_u_email_faculty_en</sys_update_name>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="760f6395db23330074859fd2ca961910" sys_domain="global" table="x_370289_class_adj_class_adj" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>55a2ec69dbe3330074859fd2ca961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_faculty_req</element>
+            <position>1</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>dda2ec69dbe3330074859fd2ca961983</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_email_faculty</element>
+            <position>2</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>55a2ec69dbe3330074859fd2ca961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_req_time</element>
+            <position>3</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>d9a2ec69dbe3330074859fd2ca961984</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>51a2ec69dbe3330074859fd2ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_state</element>
+            <position>5</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>d5a2ec69dbe3330074859fd2ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>6</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>5da2ec69dbe3330074859fd2ca961985</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_class</element>
+            <position>7</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>d1a2ec69dbe3330074859fd2ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_other</element>
+            <position>8</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>59a2ec69dbe3330074859fd2ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>dda2ec69dbe3330074859fd2ca961986</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>10</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>55a2ec69dbe3330074859fd2ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>11</position>
+            <sys_created_by>3</sys_created_by>
+            <sys_created_on>2019-08-28 08:49:19</sys_created_on>
+            <sys_id>d9a2ec69dbe3330074859fd2ca961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_370289_class_adj_class_adj" sys_domain="global" view="Default view">760f6395db23330074859fd2ca961910</sys_ui_section>
+            <sys_updated_by>3</sys_updated_by>
+            <sys_updated_on>2019-08-28 08:49:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_370289_class_adj_class_adj</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-08-28 05:03:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>760f6395db23330074859fd2ca961910</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_370289_class_adj_class_adj</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+            <sys_update_name>sys_ui_section_760f6395db23330074859fd2ca961910</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-08-28 05:03:52</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

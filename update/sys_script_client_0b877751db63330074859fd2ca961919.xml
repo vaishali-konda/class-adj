@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>active</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>onLoad</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+   alert("The Form is Loaded, Thank you!!! ");
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>3</sys_created_by>
+        <sys_created_on>2019-08-28 05:43:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b877751db63330074859fd2ca961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>onLoad</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+        <sys_update_name>sys_script_client_0b877751db63330074859fd2ca961919</sys_update_name>
+        <sys_updated_by>3</sys_updated_by>
+        <sys_updated_on>2019-08-28 05:43:51</sys_updated_on>
+        <table>x_370289_class_adj_class_adj</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

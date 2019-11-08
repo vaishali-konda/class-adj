@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_faculty_req</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Populate Email Field</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+// Instantiate the GetEmailAddress Script Include 
+	var getEmailAddr = new GlideAjax('GetEmailAddress');
+	// Specify the getEmail method
+	getEmailAddr.addParam('sysparm_name','getEmail');
+	// Pass the Requested for sys_id
+	getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_faculty_req'));
+	// Send the request to the server
+	getEmailAddr.getXML(populateEmailField);
+
+
+	// When the response is back from the server
+	function populateEmailField(response){
+		// Extract the email address from the response, clear any value from the email field, 
+		// set new value in the email field
+		var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue('u_email_faculty');
+		g_form.setValue('u_email_faculty',emailFromScriptInclude);
+	}
+}
+]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>3</sys_created_by>
+        <sys_created_on>2019-08-28 08:34:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>935edc25dbe3330074859fd2ca961951</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Populate Email Field</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+        <sys_update_name>sys_script_client_935edc25dbe3330074859fd2ca961951</sys_update_name>
+        <sys_updated_by>3</sys_updated_by>
+        <sys_updated_on>2019-08-28 08:50:47</sys_updated_on>
+        <table>x_370289_class_adj_class_adj</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

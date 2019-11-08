@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>u_other</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>1</sys_created_by>
+        <sys_created_on>2019-08-28 05:47:28</sys_created_on>
+        <sys_id>6dc8fb91db63330074859fd2ca961947</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_other</sys_name>
+        <sys_package display_value="class adjustment" source="x_370289_class_adj">4f9e2395db23330074859fd2ca96192d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="class adjustment">4f9e2395db23330074859fd2ca96192d</sys_scope>
+        <sys_update_name>sys_ui_policy_action_6dc8fb91db63330074859fd2ca961947</sys_update_name>
+        <sys_updated_by>1</sys_updated_by>
+        <sys_updated_on>2019-08-28 05:47:28</sys_updated_on>
+        <table>x_370289_class_adj_class_adj</table>
+        <ui_policy display_value="When not only for one class.">7c977751db63330074859fd2ca9619c4</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>
